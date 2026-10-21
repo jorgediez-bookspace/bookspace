@@ -1,0 +1,182 @@
+================================================================================
+PRIVACY POLICY FOR BOOKSPACE
+================================================================================
+Last Updated / Effective Date: October 21, 2026
+Application Name: BookSpace
+Application Package: com.jorgediez.bookspace
+Developer / Publisher: Jorge Diez (BookSpace)
+Contact Email: privacy@bookspace.app / jorgediez.dev@gmail.com
+
+--------------------------------------------------------------------------------
+1. INTRODUCTION
+--------------------------------------------------------------------------------
+Welcome to BookSpace ("we", "our", or "us"). BookSpace is a minimalist,
+distraction-free reading companion application designed for mobile devices 
+(Android and iOS) and web previews.
+
+We believe that your reading habits, thoughts, notes, and personal reflections
+are deeply personal. This Privacy Policy explains our commitment to protecting
+your privacy, detailing what information is collected, how it is used, where
+it is stored, and your rights regarding your data in accordance with the Google
+Play Developer Policy, the General Data Protection Regulation (GDPR), and the
+California Consumer Privacy Act (CCPA/CPRA).
+
+--------------------------------------------------------------------------------
+2. LOCAL-FIRST PRIVACY PHILOSOPHY
+--------------------------------------------------------------------------------
+BookSpace is built on a "Local-First / Offline-First" architecture:
+- Your reading library, progress, focus timer history, and private reading 
+  notes are stored locally on your device in secure, sandboxed application storage.
+- We do not operate remote servers that track your reading behavior, sell your 
+  habits to advertisers, or monitor the books you read.
+- You can use the application completely offline without an active internet
+  connection.
+
+--------------------------------------------------------------------------------
+3. INFORMATION WE COLLECT AND HOW WE USE IT
+--------------------------------------------------------------------------------
+
+A. Account & Profile Information
+- Information Provided: When you create an account, you may provide an email
+  address, a display name, and select or upload a profile avatar.
+- Purpose: To personalize your reading experience, identify your milestone cards,
+  and organize your reading logs.
+- Storage: Stored locally on your device within the application's protected
+  database.
+
+B. User-Generated Reading Content
+- Information Provided: Book titles, author names, total page counts, current
+  reading progress, custom shelf classifications (Currently Reading, Want to
+  Read, Finished), reading session durations, and user-written notes/quotes.
+- Purpose: To calculate your completion percentages, display reading statistics,
+  and power the distraction-free focus timer and notes journal.
+- Storage: Kept strictly on your local device.
+
+C. Device Permissions & Media Access
+- Photo Library / Storage Access (READ_EXTERNAL_STORAGE / Photo Picker):
+  Requested ONLY when you explicitly choose to select a custom avatar photo from
+  your device's gallery. BookSpace accesses only the single image you choose.
+  We do not scan, collect, or upload your photo library.
+- Background Audio Playback (FOREGROUND_SERVICE / WAKE_LOCK):
+  Used solely to allow the built-in ambient reading soundscapes (such as rain,
+  fireplace, or forest wind) to continue playing uninterrupted while you focus
+  or when your device screen is locked.
+- Network Access (INTERNET / ACCESS_NETWORK_STATE):
+  Used to:
+  1) Perform live book catalog queries via the public Open Library and Google
+     Books APIs when you search for a book to add.
+  2) Stream royalty-free ambient audio tracks for the focus reading mode.
+
+--------------------------------------------------------------------------------
+4. INFORMATION WE DO NOT COLLECT
+--------------------------------------------------------------------------------
+We respect your digital boundaries. BookSpace does NOT collect:
+- Precise or coarse GPS location data.
+- Device contacts, address books, or call/SMS logs.
+- Audio recordings (we play audio; we never record from the microphone).
+- Biometric information.
+- Advertising identifiers (GAID / IDFA) for third-party advertising or profiling.
+- Financial, credit card, or payment information.
+
+--------------------------------------------------------------------------------
+5. THIRD-PARTY SERVICES & EXTERNAL LIBRARIES
+--------------------------------------------------------------------------------
+To provide core functionality without compromising privacy, BookSpace utilizes
+a minimal number of trusted third-party services:
+
+1. Open Library API (Internet Archive) & Google Books API
+   When you search for a book in the app, your search query string (e.g., author
+   or title) is transmitted to these public catalog endpoints to retrieve cover
+   art, publication metadata, and page counts. No personally identifiable 
+   information (PII) or user account information is attached to these queries.
+
+2. Expo & EAS (Expo Application Services)
+   The app is built using the Expo framework. Expo may collect basic, anonymous
+   technical crash diagnostics or device platform types to ensure stability and
+   deliver app updates.
+
+3. Native Sharing (Android / iOS Share Sheet)
+   When you tap "Share Milestone" or "Share Note", the app uses native device
+   sharing APIs (via react-native-view-shot and expo-sharing) to generate a
+   progress card image and hand it off directly to whichever app you choose
+   (such as WhatsApp, Instagram, or X). BookSpace does not transmit this image
+   to any external cloud server.
+
+We DO NOT include third-party advertising SDKs, ad networks, behavioral trackers,
+or data broker analytics within the app.
+
+--------------------------------------------------------------------------------
+6. DATA RETENTION AND DELETION (YOUR RIGHTS)
+--------------------------------------------------------------------------------
+Because your data is stored locally on your device:
+
+A. Automatic Deletion via Uninstall
+- If you uninstall the BookSpace application from your device, all local databases,
+  cached files, library books, and reading notes will be automatically deleted
+  by the operating system.
+
+B. In-App One-Tap Account & Data Wipe
+- You can permanently wipe your account and all associated reading data at any
+  time directly from inside the app:
+  1. Open BookSpace.
+  2. Navigate to the "Settings" tab.
+  3. Scroll down to the "Danger Zone".
+  4. Tap "Delete Account" and confirm.
+- This immediately and irrecoverably erases your user profile, book catalog,
+  reading notes, session statistics, and settings from your device storage.
+
+--------------------------------------------------------------------------------
+7. SECURITY OF YOUR INFORMATION
+--------------------------------------------------------------------------------
+We take the security of your data seriously:
+- Data is isolated within the sandboxed directory provided by Android/iOS, which
+  prevents other installed applications from inspecting or accessing your data.
+- All network communications (such as book catalog lookups and audio streaming)
+  use industry-standard Transport Layer Security (HTTPS/TLS) encryption.
+
+--------------------------------------------------------------------------------
+8. CHILDREN'S PRIVACY (COPPA / GDPR-K COMPLIANCE)
+--------------------------------------------------------------------------------
+BookSpace is a general audience utility application and is not directed to
+children under the age of 13 (or 16 in the European Union). We do not knowingly
+collect, solicit, or store personal information from children. If you believe
+that a child has provided us with personal information, please contact us at
+the email address below, and we will promptly ensure the data is deleted.
+
+--------------------------------------------------------------------------------
+9. INTERNATIONAL USER RIGHTS (GDPR & CCPA / CPRA)
+--------------------------------------------------------------------------------
+Regardless of your geographical location, you have the following rights:
+- Right to Access: You can view all stored books, notes, and profile details
+  directly on the app screens at any time.
+- Right to Rectification: You can edit your display name, avatar, notes, and 
+  page counts directly within the app.
+- Right to Erasure / "Right to be Forgotten": You can delete individual books,
+  notes, or execute a full account wipe using the in-app "Delete Account" feature.
+- Right to Non-Discrimination: We do not discriminate against any user for 
+  exercising their privacy rights.
+- "Do Not Sell or Share My Personal Information": We do not sell, rent, or share
+  your personal data with any third parties for monetary or commercial gain.
+
+--------------------------------------------------------------------------------
+10. CHANGES TO THIS PRIVACY POLICY
+--------------------------------------------------------------------------------
+We may update our Privacy Policy periodically to reflect changes in our practices,
+technologies, or legal requirements. Any modifications will be posted with an
+updated "Effective Date" at the top of this document. Continued use of the app
+following the posting of changes constitutes your acceptance of the revised
+policy.
+
+--------------------------------------------------------------------------------
+11. CONTACT US
+--------------------------------------------------------------------------------
+If you have any questions, concerns, or requests regarding this Privacy Policy
+or our data protection practices, please contact us at:
+
+Developer: Jorge Diez
+App Name: BookSpace
+Email: privacy@bookspace.app
+Alternative Contact: jorgediez.dev@gmail.com
+Project Repository: https://github.com/jorgediez-bookspace/bookspace
+Live Policy URL: https://github.com/jorgediez-bookspace/bookspace/blob/main/PRIVACY_POLICY.md
+================================================================================
